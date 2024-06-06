@@ -109,6 +109,7 @@ nav {
         padding-right: 10px;
         padding-left: 20px;
         border-radius: 8px;
+        position: relative;
 
         .rectangle {
             width: 30px;
@@ -126,14 +127,40 @@ nav {
             font-size: 20px;
             font-weight: 400;
         }
+        h6 {
+            margin-top: 8px;
+            font-size: 20px;
+            font-weight: 400;
+            display: inline-block;
+        }
+        .inc {
+            width: 29%;
+            display: inline-block;
+            float: inline-end;
+            border: 1px solid red;
+        }
 
     }
     .destination {
         border: 1px solid black;
         width: 60%;
+        line-height: 24.2px;
+        padding: 10px 15px 15px 5px;
+        margin-top: 10px;
     }
-    .flightIcons {
-        display: inline-block;
-        border: 1px solid red;
+    .destination a {
+        display: block;
+    }
+    .flightIcons .icon1 {
+        display: block; 
+        position: absolute;
+        top: 60px;
+        right: 10px;
+    }
+    .flightIcons .icon2 {
+        display: block; 
+        position: absolute;
+        top: 90px;
+        right: 10px;
     }
 }
